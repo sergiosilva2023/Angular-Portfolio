@@ -116,6 +116,20 @@ export class ProjectsComponent {
         },
       ],
     },
+        {
+      src: 'assets/img/projects/novo-portfolio.jpeg',
+      alt: 'Novo Portfolio',
+      title: 'Novo Portfolio',
+      width: '200px',
+      height: '100px',
+      description: '<p>Projeto em Angular e Sass.</p>',
+      links: [
+        {
+          name: 'Novo Portfolio',
+          href: 'https://www.devssilva.com/angular-portfolio/',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects) {
