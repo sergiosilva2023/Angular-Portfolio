@@ -130,6 +130,20 @@ export class ProjectsComponent {
         },
       ],
     },
+            {
+      src: 'assets/img/projects/next-recharts.jpeg',
+      alt: 'Dashboard Nextjs & Recharts',
+      title: 'Dashboard Nextjs & Recharts',
+      width: '200px',
+      height: '100px',
+      description: '<p>Projeto em Nextjs, Taillwind e Recharts.</p>',
+      links: [
+        {
+          name: 'Dashboard Nextjs & Recharts',
+          href: 'https://dashboard-next-recharts.vercel.app/',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects) {
